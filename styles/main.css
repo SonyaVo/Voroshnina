@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+
+    font-family: "Comfortaa", sans-serif;
+    
+}
+
+
+.header {
+    background-color:  #ea6b6b;
+    color: white;
+
+}
+
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.main-menu {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+
+}
+
+main p {
+    text-align: justify;
+}
+
+.avatar {
+    height: 350px;
+    text-align: center;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.avatar img{
+    height: 100%;
+}
+
+.footer {
+    background-color: #ea6b6b;
+    color: white;
+    padding: 40px 0;
+    margin-top: 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.w-50 {
+    max-width: 50%;
+}
+
+.my {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mx {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-right {
+    text-align: right;
+
+}
+
+.btn:hover {
+    transition: color 0.5s, border-color 0, 5s;
+    color: #4bd3e4;
+    
+}
+
+.btn {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px  ;
+    padding: 10px;
+}
+
+.text-left{
+    text-align: left;
+}
+table {
+    border-collapse: separate; /* Ячейки не смыкаются друг с другом */
+}
+
+th, td {
+    padding: 10px 20px; /* Внутренние отступы: 10px сверху и снизу, 20px справа и слева */
+    border: 1px solid #fba3a3; /* Легкая граница для ячеек */
+}
+
+th {
+    background-color: #f8d4d4; /* Цвет фона для заголовков */
+}
